@@ -1,0 +1,9 @@
+# Local/private config goes in the include
+[include]
+        path = ~/.gitconfig.local
+
+[credential]
+	helper = osxkeychain
+	
+[init]
+	defaultBranch = main
