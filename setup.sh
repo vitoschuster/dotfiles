@@ -2,8 +2,8 @@
 
 echo 'Setting up your mac..'
 
-echo 'Installing xcode-stuff'
-xcode-select --install
+#echo 'Installing xcode-stuff'
+#xcode-select --install
 
 # Check for Oh My Zsh and install if we don't have it
 if test ! $(which omz); then
