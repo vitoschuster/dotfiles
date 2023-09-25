@@ -4,13 +4,13 @@ cask_args appdir: "/Applications"
 
 
 # Tap Homebrew
-tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "buo/cask-upgrade"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "jdx/tap/rtx"
 
 # Developer Tools
 brew "git"
@@ -140,3 +140,4 @@ cask "folx" # to-install: Batteries
 # vscode "yoavbls.pretty-ts-errors"
 # vscode "zhuangtongfa.material-theme"
 # vscode "Zignd.html-css-class-completion"
+# vscode tamasfe.even-better-toml
