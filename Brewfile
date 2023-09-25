@@ -10,7 +10,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "jdx/tap/rtx"
+tap "jdx/tap"
 
 # Developer Tools
 brew "git"
@@ -25,6 +25,11 @@ brew "sl"
 brew "tldr"
 brew "mackup" 
 brew "mysql"
+
+# Terminal Plugins
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
+brew "powerlevel10k"
 
 # Browsers & Clients
 cask "arc"
