@@ -1,6 +1,6 @@
 [tools]
     node = "lts"
-    java = "openjdk-21" #["latest", "stable", "8"]
+java = "openjdk-17"
 
 [plugins]
     java = 'https://github.com/halcyon/asdf-java.git'
